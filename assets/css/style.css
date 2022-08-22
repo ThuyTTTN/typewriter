@@ -1,9 +1,8 @@
-* {
-    /* background-color: black; */
-}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Amatic SC', sans-serif;
+    /* height:20vh; */
     background-image: url('../images/peony-blk-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,57 +13,54 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 0 3rem;
+    /* padding: 0 3rem; */
 }
 
 h1 {
-    font-size: 3.5rem;
-    color: #fff;
+    font-size: 5rem;
+    color: rgb(236, 226, 237);
+    margin-left: 200px;
 }
 
 h2 {
-    font-size: 2rem;
-    color: rgb(239, 239, 239);
+    font-size: 3rem;
+    color: rgb(236, 226, 237);
+    margin-left: 200px;
 }
 
 /* Cursor */
 .text-type > .text {
     border-right: 0.2rem solid #777;
-  }
+}
   
 @media(min-width: 1200px) {
     h1 {
       font-size: 5rem;
+      margin: 50;
     }
-  }
+}
   
 @media(max-width: 800px) {
     .container {
       padding: 0 1rem;
+      
     }
   
     h1 {
       font-size: 3rem;
+      margin: 0;
     }
   }
   
 @media(max-width: 500px) {
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
+      margin:0;
     }
   
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.0rem;
+      margin: 0;
     }
   }
 
-
-
-
-
-/* @media screen and (max-width: 1024px) { /* Specific to this particular image */
-    /* img.bg {
-      left: 50%;
-      margin-left: -512px;   /* 50% */
-    }
-  } */
